@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>CSS Mem Slider</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/styles.css" />
+	<link rel="stylesheet" href="./styles/slider.css" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+</head>
+
+<body>
+
+	<main class="content">
+		<header>
+			<h1>CSS Mem Slider</h1>
+		</header>
+		<section>
+			<div class="slider">
+				<input class="slider__input" type="radio" id="slide-1" name="slides" value="slide-1" checked />
+				<label class="slider__label" for="slide-1"></label>
+				<input class="slider__input" type="radio" id="slide-2" name="slides" value="slide-2" />
+				<label class="slider__label" for="slide-2"></label>
+				<input class="slider__input" type="radio" id="slide-3" name="slides" value="slide-3" />
+				<label class="slider__label" for="slide-3"></label>
+				<input class="slider__input" type="radio" id="slide-4" name="slides" value="slide-4" />
+				<label class="slider__label" for="slide-4"></label>
+				<input class="slider__input" type="radio" id="slide-5" name="slides" value="slide-5" />
+				<label class="slider__label" for="slide-5"></label>
+				<ul class="slider__content">
+					<li class="slider__slide slide-1">
+						<img src="./assets/img/slider/1.jpg" />
+					</li>
+					<li class="slider__slide slide-2">
+						<img src="./assets/img/slider/2.jpg" />
+					</li>
+					<li class="slider__slide slide-3">
+						<img src="./assets/img/slider/3.jpg" />
+					</li>
+					<li class="slider__slide slide-4">
+						<img src="./assets/img/slider/4.jpg" />
+					</li>
+					<li class="slider__slide slide-5">
+						<img src="./assets/img/slider/5.jpg" />
+					</li>
+				</ul>
+				<ul class="slider__content slides-texts">
+					<li><span>Не говори глупости, Питонослав</span></li>
+					<li><span>Стресс в IT? Нет, не слышал</span></li>
+					<li><span>Нет пределов совершенству!</span></li>
+					<li><span>Спасём детей от программирования</span></li>
+					<li><span>Подержи моё пиво, я собираюсь изучить новый JS Framework</span></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+</body>
+
+</html>
